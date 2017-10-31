@@ -1,0 +1,194 @@
+
+.wrapper{
+	height: auto;
+	width: 100%;
+	position: absolute;
+}
+.navbar{
+	background-color: transparent; 
+	-webkit-transition: background-color 1.4s, background 1.4s; 
+	transition: background-color 1.4s, background 1.4s;
+	
+}
+
+ul, li, a{
+	padding-left: 30px;
+}
+
+.wrap{
+	background: url(img/planina1.jpg) no-repeat center ;
+	width: 100%;
+	height: 700px;
+	background-attachment: fixed;
+	transition: 3s;
+
+}
+
+.jumbotron{
+	opacity: 0.5;
+}
+
+.text-center{
+	opacity: 1;
+}
+
+.btn{
+	border: 2px solid black;
+    color: black ;
+    background-color: transparent;
+}
+
+.view{
+	padding-top: 15px;
+	 overflow: hidden;
+     position: relative;
+}
+
+.img-fluid{
+	background: no-repeat center;
+	width: 300px;
+	height: 400px;
+}
+
+.text{
+	padding-top: 15px;
+	overflow: hidden;
+}
+
+.wrap3{
+
+	background: url(img/mehanizam2.jpg) center;
+	width:100%;
+	height:300px;
+	background-attachment: fixed;
+}
+
+
+.card{
+   background-color: rgba(238, 238, 238, 0.7);
+   width: 450px;
+   height:150px;
+   position: relative;
+   top:100px;
+   opacity: 0.9;
+
+
+}
+
+.wrap4{
+
+	width:100%;
+	height:380px;
+
+
+}
+
+
+.img-responsive{
+	width: 450px;
+	height: 300px;
+	padding-top: 25px;
+
+}
+
+
+
+.icon-angle-up{
+
+    
+    
+    position: fixed;
+    width: 44px;
+    height: 44px;
+    background-color: #fff8e1;
+    font-size: 20px;
+    line-height: 36px;
+    color: rgba(255,222,0,1);
+    top: auto;
+    left: auto;
+    right: 30px;
+    bottom: 20px;
+    opacity: 0.7;
+	animation-name: vis;
+	animation-duration: 1.7s;
+
+    
+}
+
+
+    
+
+
+@keyframes vis {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0.7;
+  }
+}
+
+
+
+
+.fa{
+	position: relative;
+	right: 18px;
+	top: 4px;
+	font-size: 30px;
+}
+
+#kontakt{
+	width: 100%;
+	height: 600px;
+	background: url(img/daska.jpg);
+	padding-top: 150px;
+	padding-left: 90px;
+	
+}
+
+
+.forms{
+	width: 560px;
+	height: 380px;
+	background-color: #757575;
+	opacity: 0.6;
+	
+
+
+	
+}
+
+.forms .contact {
+	font-family: Lato,sans-serif;
+	font-size: 16px;
+	color: white;
+	position: relative;
+	text-align: left;
+	padding-left: 50px;
+	padding-top: 20px;
+	
+}
+
+.map{
+	width: 450px;
+	height: 380px;
+	
+}
+
+.footer{
+	width: 100%;
+	height: 50px;
+	background-color: #616161;
+	
+	 
+}
+
+.footer_par{
+	font-size: 15px;
+	color:white;
+	line-height: 20px;
+	padding: 10px;
+
+}
